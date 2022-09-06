@@ -23,10 +23,18 @@
     Actions:
     1) Erase
     2) START
-    
+
+    ![](flashing.png)
 4) Restart your ESP (CH_PD <--> VCC)
 5) Connect to network ESP-*
-6) Open 192.168.4.1 in the web browser
+6) Open http://192.168.4.1 in the web browser
 7) Configure WIFI SSID & Password
 8) Wire ESP to DLC32 as showed on the diagram 
+
+    Use AMS1117 (LM1117) as a 5V -> 3.3V step down regulator
+
+    ![](wiring.jpg)
+
 9) In LaserGRBL connect using Telnet (port 23)
+    ![](laserGRBL.png)
+    
