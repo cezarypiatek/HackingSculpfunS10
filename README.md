@@ -6,17 +6,19 @@
     https://github.com/jeelabs/esp-link/releases
 3. Flash the ESP (GPI0 <--> GND on connecting)
 
-    File Addresses:
-    blank.bin -> 0xFE000
-    esp_init_data_default.bin -> 0XFC000
-    boot_v1.6.bin -> 0X0
-    user1.bin -> 0X1000
+    |File |Addresses|
+    |-----|---------|
+    |blank.bin | 0xFE000|
+    |esp_init_data_default.bin | 0XFC000|
+    |boot_v1.6.bin | 0X0 |
+    |user1.bin | 0X1000 |
 
-    Options:
-    SPI SPEED = 26.7MHz
-    SPI MODE = DOUT
-    DoNotChgBin = Unchecked
-    BAUD = 115200
+    |Setting | Value|
+    |-----|---------|
+    |SPI SPEED | 26.7MHz|
+    |SPI MODE | DOUT|
+    |DoNotChgBin | Unchecked |
+    |BAUD | 115200 |
 
     Actions:
     1) Erase
@@ -27,3 +29,4 @@
 6) Open 192.168.4.1 in the web browser
 7) Configure WIFI SSID & Password
 8) Wire ESP to DLC32 as showed on the diagram 
+9) In LaserGRBL connect using Telnet (port 23)
