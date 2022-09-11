@@ -1,4 +1,4 @@
-# How to add WIFI
+# How to add WIFI (With ESP-01)
 
 1. Donwload flashing tools for ESP8266
     https://espressif.com/en/support/download/other-tools?keys=&field_type_tid%5B%5D=14
