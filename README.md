@@ -45,5 +45,5 @@
 
 > Remarks
  - I tried to used ESP-12 which can be power with 5V without any extra component. However, it's susceptible to hight level on `GPIO15` (UART switch mode)  during the boot so it's not working with Sculpfun S10 (you need to disconnect RX from the machine, power on and then connect RX back)
-    
+ - Overview of ESP8266 Pinout https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/   
     
